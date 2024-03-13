@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: var(--font-family);
+  }
+  .montakhab{
+    width: 100%;
+    height: 812px;
+    display: flex;
+    justify-content: center;
+
+    .montakhabcenter{
+        width: 70%;
+        height: inherit;
+border-radius: 16px;
+border: 1px solid #e0e0e2;
+.montakhabcenter__header{
+height: 77px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 16px;
+padding-bottom: 16px;
+
+.montakhabcenter__headerSvg{
+    margin-top: 10px;
+    overflow: hidden;
+    overflow-clip-margin: content-box;
+    fill: #ef4056;
+}
+& h3{
+    margin-right: 8px;
+    font-weight: 500;
+    line-height: 2.1;
+
+}
+}
+.montakhabcenter__graid{
+  
+    height:720px ;
+    display: grid;
+    margin: 0px;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    & a{
+        width:218.5px ;
+        height: 243px;
+        border-bottom: 1px solid #f0f0f1;
+        border-left: 1px solid #f0f0f1;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 8px;
+        padding-right: 8px;
+        overflow: hidden;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        .montakhabcenter__graid1{
+            width: 201px;
+            height: 217px ;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            & article{
+                width: 201px;
+                height: 217px ;
+                overflow: hidden;
+                display: flex;
+                justify-content: flex-start;
+                align-items: stretch;
+                flex-direction: column;
+                cursor: pointer;
+                .montakhabcenter__graid11{
+                    width: 201px;
+                    height:154px ;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: stretch;
+                    flex-grow: 1;
+                    margin-bottom: 4px;
+                    position: relative;         
+                    cursor: pointer;
+                .montakhabcenter__graid11top{
+                    width: 201px;
+                    height: 150px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: stretch;
+                    margin-bottom: 4px;
+                    position: relative;
+                    .montakhabcenter__graid11top1{
+                        width: 150px;
+                        height: 150px; 
+                        align-items: flex-start;
+                        display: flex;
+                        cursor: pointer;
+                        .montakhabcenter__graid11top1img{
+                            width: 150px;
+                            height: 150px;
+                            display: flex;
+                           justify-content: center;
+                            overflow: hidden;
+                            position: relative;
+                       & img{
+                        width: 150px;
+                        height: 150px;
+                        aspect-ratio: auto 150 / 150;
+                        object-fit: contain;
+                        border-radius: 8px;
+                        overflow-clip-margin: content-box;
+                       }
+                    }
+                  }
+                }
+               .montakhabcenter__graid11bottomn{
+                width:201px ;
+                height:63px ;
+                display: flex;
+                flex-grow: 1;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                gap:4px;
+                color: #3f4064;
+                cursor: pointer;
+                font-size: 14px;
+                font-weight: 700px;
+                line-height: 2.1;
+                
+                    
+                    .montakhabcenter__graid11bottomn1top{
+                        width:201px ;
+                        height:33px ;
+                        flex-direction: row;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        .montakhabcenter__graid11bottomn1topright{
+                            width:34px ;
+                            height:20px ;
+                            display: flex;
+                           background-color: #d32f2f;
+                            color: #fff;
+                           border-radius: 16px;
+                           align-items: center;
+                                                                                                            
+                            font-family: var(--font-family);
+                            font-size: 12px;
+                            font-weight: bold;
+                            padding-right: 5px;
+                               
+                           
+                            .montakhabcenter__graid11bottomn1topleft{
+                                width: 167px ;
+                                height: 33px ;
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: flex-end;
+                                flex-grow: 1;
+                                gap: 4px;
+                                font-family: var(--font-family);
+                                font-size: 18px;
+                                font-weight: 700;
+                               
+                            }
+                           
+
+                        }
+                    }
+                      
+                    }
+                 .montakhabcenter__graid11bottomn1bottomn{
+                    width: 201px ;
+                    height: 26px ;
+                   font-family: var(--font-family);
+                   display: flex;
+                   justify-content: flex-end;
+                   width: 100%;
+                   text-align: left;
+                   padding-left: 20px;
+                   text-decoration: line-through;
+                   font-size: 14px;
+                   color:#c0c2c5
+                 
+                }
+               
+               }
+             
+              }
+            }       
+
+       }  
+
+      }
+    }
+    
+}

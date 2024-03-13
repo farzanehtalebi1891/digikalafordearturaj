@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+  }
+  .ersal{
+    width: 100%;
+    height: 411;
+       display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    .ersalcenter{
+        width: 1336px;
+        height: 400px;
+        padding: 16px;
+        margin-top: 20px;
+        background-color:#941b80;
+        border-radius: 16px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .ersalright{
+            width: 355px;
+            height: 400px;
+            display: block;
+            background-image: url("../../images/ersal/ersal.png");
+            background-size: 372px 279px;
+            background-repeat: no-repeat;
+            background-position: 0 100%;
+            
+            flex-grow: 1px;
+            margin-left: 12px;
+            user-select: none;
+            .ersalright__top{
+                width:355px ;
+                height: 400px;
+                padding-right: 24px;
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                flex-direction: column;
+                font-family: var(--font-family);
+                font-size: 10px;
+            .ersalright__top1{
+                width: 128px;
+                height: 32px;
+                display: inherit;
+                justify-content: inherit;
+                align-items: inherit;
+                flex-direction: inherit;
+                color: inherit;
+                & a{
+                    text-decoration: none;
+                  
+                }
+                
+            }  
+            .ersalright__top2{
+                width: 207px;
+                height: 50px;
+                display: flex;
+                font-family: var(--font-family);
+                font-size:16px ;
+                font-weight: 400px;
+                line-height: 2.15;
+                color: #fff;
+           
+            } 
+            .ersalright__top3{
+                width: 105px;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                cursor: pointer;
+                border: 1px solid;
+                color:#fff;
+                background-color:#941b80;
+                margin-top: 10px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                padding-left: 16px;
+                padding-right: 16px;
+                font-size: 12px;
+                line-height: 2.17;
+                border-radius: 8px;
+
+                .ersalright__top3_1{
+                    width:71px ;
+                    height:26px ;
+                    display: flex;
+                    justify-content: center;
+                    position: relative;
+                    & div{
+                        width:39px ;
+                        height:16px ; 
+                        font-family: var(--font-family); 
+                        font-size:14px ;
+                        font-weight: 500px;
+                        font-size:13px ;
+                        font-weight: 700px;
+                        line-height: 2.17;
+                    }
+                }
+                .ersalright__top3-svg{
+                    width:24px ;
+                    height:24px ;  
+                    display: flex;
+                    justify-content: center;
+                    
+                    margin-right: 8px;
+                    color: #fff;
+                    font-size:13px ;
+                        font-weight: 700px;
+                        line-height: 2.17;
+                }
+            }
+        }
+
+    }
+    .ersalleftmain{
+        width:868px;
+        height:365px;
+        gap: 4px;
+        overflow: hidden;
+        row-gap: 0px;
+        border-radius: 8px;
+        background-color: bisque;
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));;
+        grid-template-rows:  repeat(1, minmax(0, 1fr));
+    .ersalleft{
+        width:868px;
+        height:365px;
+        padding-left: 16px;
+        padding-right: 16px;
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        .ersalleft__top{
+            width: 836px;
+            height: 66px;  
+            padding-top: 16px;
+            padding-bottom: 16px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+        .ersalleft__topright{
+            width: 151px;
+            height: 33px;
+            margin-left: 16px;
+            display: flex;
+            align-items: center;
+
+            .ersalleft__toprightsvg{
+                width: 24px;
+                height: 24px;
+                display: flex;
+            }
+            & h4{
+                width: 120px ;
+                height: 33px;
+                display: block;
+                margin-right: 8px;
+                margin-block-start: 1.33em;
+                margin-block-end: 1.33em;
+                font-family: var(--font-family); 
+                font-size: 17px;
+                font-weight: 700px;
+                line-height: 2.1;
+                color: #0c0c0c;
+               
+            }
+            }
+            & span{
+                width: 86px;
+                height: 26px;
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+                color: #b12ba4;
+                font-family: var(--font-family); 
+                font-size: 14px;
+                font-weight: 700px;
+                line-height: 2.17;
+                .ersalleft__topleft{
+                    display: flex;
+
+                }
+            }
+           
+        }
+     .ersalleft__graidemain{
+        width:836px ;
+        height: 280px;
+        gap: 28px;
+        display: grid;
+        grid-template-columns: repeat(6, minmax(0, 1fr));
+        padding-bottom: 20px;
+        height: fit-content;
+        .ersalleft__graidea{
+         width: 116px;
+         height: 116px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         position: relative;
+           & a{
+            width: 116px;
+            height: 116px;
+            display: inherit;
+            color: inherit;
+            justify-content: inherit;
+            align-items: inherit;
+            text-decoration: none;
+            cursor: pointer;
+           }
+            .ersalleft__graideimg{
+                width: 116px;
+                height: 116px;
+                display: block;
+                cursor: pointer;
+                & img{
+                    width: 116px;
+                    height: 116px;
+                    display: inline-block;  
+                    object-fit: contain;
+                    overflow: hidden;
+                    position: relative;
+                    cursor: pointer;
+                }
+
+            }
+        }
+       
+     }
+
+    }
+    }
+    }
+
+
+    
+  }
+}

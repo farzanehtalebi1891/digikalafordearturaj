@@ -1,0 +1,172 @@
+header{
+    width: 100%;
+    height:170px;
+
+}
+header .banner{
+    width:100%;
+    height:60px;
+    background-color: aqua;
+}
+header .banner img{
+    width:100%;
+    height: inherit;
+object-fit: cover;
+}
+header .center{
+    width: inherit;
+    height:70px;
+        display:flex;
+    flex-flow: row wrap;
+}
+header .center .logo{
+width:10%;
+height:inherit;
+display:flex;
+justify-content: flex-end;
+align-items: center;
+}
+header .center .search{
+    width:70%;
+    height:inherit;
+    
+    display:flex;
+    align-items: center;
+    flex-flow: row wrap;
+    padding-right: 20px;
+}
+header .center .search input[type=search]{
+width:600px;
+height: 40px;
+background-color: #f0f0ff;
+border-radius: 7px;
+border: unset;
+outline: unset;
+padding: 0 10px;
+}
+header .center .search input[type=search]::placeholder{
+padding-right: 30px;
+
+}
+header .center .register{
+    width:20%;
+    height:inherit;
+      display: flex;
+    align-items: center;
+    
+ }
+ .register-login{
+width:130px;
+height:40px;
+border:1px solid rgb(136, 137, 141);
+font-size: 8px;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+text-decoration:none;
+color: rgb(34, 5, 12);
+font-weight: bold;
+column-gap: 10px;
+border-radius: 7px;
+font-size: 12px;
+ 
+ & span{
+    display: inline-block;
+    width: 2px;
+    height: 20px;
+    background-color: #2b2b2b;
+    margin: 5px;
+ }
+}
+ header .center .register span{
+    display:inline-block;
+    width:2px;
+    height: 25px;
+    background-color: #2b2b2b;
+    margin: 5px;
+
+ }
+
+
+ header .menue{
+    width: 100%;
+    height: 40px;
+       padding-right: 160px;
+    display: flex;
+    flex-flow: row wrap;
+    .menue-right{
+        width: 80%;
+        height: inherit;
+    
+        & nav{
+      width: 100%;
+          height: inherit;
+         display: flex;
+     flex-flow: row wrap;
+     column-gap: 20px;
+     align-items: center;
+     .menue-right-space{
+        width:1px ;
+        height: 20px;
+        background-color: lightgrey;
+       
+        
+     }
+& div{
+    width: fit-content;
+    height: inherit;
+    & a{
+        width:fit-content ;
+        height:inherit ;
+        text-decoration: none;
+        font-size: 12px;
+        color: #3b3737bb;
+    
+        display: flex;
+        align-items: center;
+
+    }
+      .active{
+        font-size: 13px;
+        font-weight: bold;
+        color:#2b2b2b;
+       & svg{
+margin-top: -5px;
+       }
+    }
+}
+        }
+    }
+  
+   
+   .menue-left{
+width: 20%;
+height: inherit;
+
+display:flex;
+flex-flow: row wrap;
+align-items: center;
+justify-content: center;
+
+& div{
+    font-size: 12px;
+    color: #2b2b2b;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    font-weight: bold;
+
+    & svg{
+        width: 24px;
+        height: 24px;
+       
+    }
+}
+
+
+
+   }
+ 
+}
+
+ 

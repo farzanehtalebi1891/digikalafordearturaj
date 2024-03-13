@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: IRANYEKAN;
+    src: url('../fonts/IRANYekanWeb.eot');
+    src: url('../fonts/IRANYekanWeb.ttf');
+    src: url('../fonts/IRANYekanWeb.woff');
+    src: url('../fonts/IRANYekanWeb.woff2');
+}
+@font-face{
+    font-family: HOMA;
+    src: url('../fonts/homa.ttf');
+}
+
+:root{
+    --font-family:IRANYEKAN;
+    --font-family:HOMA
+}
+.wrapper{
+width:100% ;
+}

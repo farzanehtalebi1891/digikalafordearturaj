@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+.advertisemet {
+  width: 100%;
+  height: 270px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  .advertise1 img {
+    height: 240px;
+    width: 320px;
+    top: 150px;
+    border-radius: 15px;
+  }
+}
+
+/*ابتدای نوار تبلیغاتی بعد از خرید براساس دسته بندی*/
+.advertisment1 {
+  width: 100%;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  .advertisment1__right {
+    width: 666px;
+    height: 264px;
+    border-radius: 10px;
+  }
+  .advertisment1__left {
+    width: 666px;
+    height: 265px;
+    border-radius: 10px;
+  }
+}
+
+/*ابتدای نوار تبلیغاتی بعد از محبوب ترین برتدها*/
+.advertisement2 {
+  width: 100%;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  .advertisement2center {
+    width: 70%;
+    height: 265px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    & img {
+      width: 670px;
+      border-radius: 15px;
+    }
+  }
+}
+/*ابتدای نوار تبلیغاتی بعد از محبوب ترین برتدها*/
+.advertisement3{
+  width: 100%;
+  height: 167px;
+  display:flex;
+  justify-content: center;
+
+  .advertisement3__center{
+    height: 167px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+   
+    border-radius: 16px;
+    & a{
+      height: 167px;
+      width:  calc(100% + 0px);
+      display: block;
+      position: relative;
+      text-decoration: none;
+      cursor: pointer;
+      .advertisement__centerimg {
+        & img{
+        height: 167px;
+        width: 1336px;
+        display: block;
+        border-radius: 16px;
+        object-fit: cover;
+        }
+      }
+    }
+  }
+}
